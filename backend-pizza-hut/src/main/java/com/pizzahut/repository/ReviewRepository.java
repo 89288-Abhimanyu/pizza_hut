@@ -1,0 +1,9 @@
+package com.pizzahut.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.pizzahut.model.Review;
+
+public interface ReviewRepository extends JpaRepository<Review, Long> {
+
+}
